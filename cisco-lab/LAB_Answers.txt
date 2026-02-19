@@ -1,0 +1,158 @@
+
+--------------------------------------- 
+Name      : SM Mostofa Morshed Sayeem
+ID        : 24110031
+Section   : 
+Term      :
+LAB       : 01
+--------------------------------------- 
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 1             |
++-------------------------------+
+
+Question 1  : What type of cable is used to connect the Ethernet interface on a host PC to the Ethernet interface on a switch?
+
+Answer      : Copper Straight-through Ethernet cable
+
+                              ---------------------------------------
+
+Question 2  : What type of cable is used to connect the Ethernet interface on a switch to the Ethernet interface on a router?
+
+Answer      : Copper Straight-through Ethernet cable
+
+                              ---------------------------------------
+
+Question 3  : What type of cable is used to connect the Ethernet interface on a router to the Ethernet interface on a host PC?
+
+Answer      : Crossover Ethernet cable
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 2             |
++-------------------------------+
+
+Question 1  : What would happen if you answered yes to the question, “System configuration has been modified. Save?” 
+
+Answer      : The current running configuration would be saved and reloaded
+
+                              ---------------------------------------
+
+Question 2  : Why would you want to disable DNS lookup in a lab environment? 
+
+Answer      : To prevent long delays when a command is mistyped and to prevent the router from attempting DNS resolution
+
+                              ---------------------------------------
+
+Question 3  : What would happen if you disabled DNS lookup in a production environment?
+
+Answer      : The router would not be able to resolve hostnames to IP addresses and loss of connectivity of networks that rely on DNS
+
+                              ---------------------------------------
+
+Question 4  : Why is it not necessary to use the enable password password command? 
+
+Answer      : enable password is not necessary because a newer and more secure command, enable secret, is available which has much stronger encryption.
+
+                              ---------------------------------------
+
+Question 5  : When does this banner display?
+
+Answer      : The banner displays before login to the router.
+
+                              ---------------------------------------
+
+Question 6  : Why should every router have a message-of-the-day banner?
+
+Answer      : To show important information if there are security issues needed to be warned beforehand.
+
+                              ---------------------------------------
+
+Question 7  : What is a shorter version of 'copy running-config startup-config' this command?
+
+Answer      : 'copy run start'
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 6             |
++-------------------------------+
+
+Question 1  : From the host attached to R1, is it possible to ping the default gateway?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 2  : From the host attached to R2, is it possible to ping the default gateway?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 3  : Are the PCs physically connected to the correct router (through a switch or directly)?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 4  : Are link lights blinking on all relevant ports (PC to router/switch)?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 5  : Do the PC configurations match the Topology Diagram?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 6  : Are the router interfaces “up” and “up” (show ip interface brief)?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 7  : From router R1, is it possible to ping R2 using ping 192.168.2.2?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 8  : From router R2, is it possible to ping R1 using ping 192.168.2.1?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 9  : Are the routers physically connected?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 10 : Are link lights blinking on all relevant router ports?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 11 : Do the router configurations match the Topology Diagram?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 12 : Did you configure the clock rate command on the DCE side of the link?
+
+Answer      : Yes
+
+                              ---------------------------------------
+
+Question 13 : Are the router interfaces “up” and “up” (show ip interface brief)?
+
+Answer      : Yes

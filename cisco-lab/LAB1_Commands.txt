@@ -1,0 +1,119 @@
+
+--------------------------------------- 
+Name      : SM Mostofa Morshed Sayeem
+ID        : 24110031
+Section   : 
+Term      :
+LAB       :
+--------------------------------------- 
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 2             |
++-------------------------------+
+
+---------------------------------
+Configuration for R1
+---------------------------------
+
+-> enable
+-> erase startup-config
+-> reload
+
+                              ---------------------------------------
+
+---------------------------------
+Configuration for R2
+---------------------------------
+
+-> enable
+-> erase startup-config
+-> reload
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 3             |
++-------------------------------+
+
+---------------------------------
+Configuration for R1
+---------------------------------
+
+-> enable
+-> configure terminal
+-> hostname R1
+-> no ip domain-lookup
+-> enable secret class
+-> banner motd &
+-> line console 0
+-> password cisco
+-> login
+-> exit
+-> line vty 0 4
+-> password cisco
+-> login
+-> exit
+-> interface fastethernet 0/0
+-> ip address 192.168.1.1 255.255.255.0
+-> no shutdown
+-> interface serial 0/0/0
+-> ip address 192.168.2.1 255.255.255.0
+-> clock rate 64000
+-> no shutdown
+-> end
+-> copy running-config startup-config
+
+                              ---------------------------------------
+
+---------------------------------
+Configuration for R2
+---------------------------------
+
+-> enable
+-> configure terminal
+-> hostname R2
+-> no ip domain-lookup
+-> enable secret class
+-> banner motd &
+-> line console 0
+-> password cisco
+-> login
+-> exit
+-> line vty 0 4
+-> password cisco
+-> login
+-> exit
+-> interface serial 0/0/0
+-> ip address 192.168.2.2 255.255.255.0
+-> no shutdown
+-> interface fastethernet 0/0
+-> ip address 192.168.3.1 255.255.255.0
+-> no shutdown
+-> end
+-> copy running-config startup-config
+
+==================================================================================================================================
+
++-------------------------------+
+|         Task  : 6             |
++-------------------------------+
+
+---------------------------------
+Configuration for R1
+---------------------------------
+
+-> show ip route
+-> show ip interface brief
+
+                              ---------------------------------------
+
+---------------------------------
+Configuration for R2
+---------------------------------
+
+-> show ip route
+-> show ip interface brief
+
+
